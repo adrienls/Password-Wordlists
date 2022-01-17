@@ -26,7 +26,7 @@ GITHUB_DIRECTORY="SecLists"
 # Check if directory exists
 if [[ -d "$GITHUB_DIRECTORY" ]]; then
   # Check if directory is empty
-  if [[ -z "$(ls -A ""$GITHUB_DIRECTORY"")" ]]; then
+  if [[ -z "$(ls -A "$GITHUB_DIRECTORY")" ]]; then
     # Clone the SecLists repository with all the wordlists
     git clone https://github.com/danielmiessler/SecLists.git
   fi
