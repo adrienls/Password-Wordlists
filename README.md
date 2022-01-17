@@ -42,7 +42,7 @@ bash wordlist.sh
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## Author
-* [adrienls](https://github.com/adrienls)
+* [adrlsx](https://github.com/adrlsx)
 
 ## License
 This project is licensed under the GNU AGPLv3 License - see the [LICENSE.md](LICENSE) file for details.
