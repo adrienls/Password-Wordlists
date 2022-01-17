@@ -2,10 +2,6 @@
 
 # Exit when any command fails
 set -e
-# Keep track of the last executed command
-trap 'last_command=$BASH_COMMAND' DEBUG
-# Echo an error message before exiting
-trap 'echo; echo "\"${last_command}\" command failed with exit code $?."' EXIT
 
 DIRECTORY_NAME='./Password_Wordlist'
 DIRECTORY_SEARCH='./SecLists/Passwords'
