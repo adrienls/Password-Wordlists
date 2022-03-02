@@ -17,9 +17,9 @@ Wordlists are aggregated in 5 different file size: small, medium, medium large, 
 These wordlists are saved in a "Password_Wordlist" directory in the current working directory.
 Each file size aggregates every wordlist found smaller than a specified size, as seen in the following table:
 
-| File name   | Small | Medium | Medium Large | Large | Very Large                          |
-|-------------|-------|--------|--------------|-------|-------------------------------------|
-| Target size | 6 KB  | 10 KB  | 100 KB       | 10 MB | Every file found, whatever its size |
+| File name   | Very Small | Small | Medium | Large | Very Large                          |
+|-------------|------------|-------|--------|-------|-------------------------------------|
+| Target size | 6 KB       | 40 KB | 400 KB | 15 MB | Every file found, whatever its size |
 
 File names and target sizes can easily be customized in the script.
 
