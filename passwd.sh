@@ -3,7 +3,7 @@
 # Exit when any command fails
 set -e
 
-DIRECTORY_NAME='./Password_Wordlist'
+DIRECTORY_NAME='./passwd'
 DIRECTORY_SEARCH='./SecLists/Passwords'
 
 OUTPUT_FILE_NAME=("very_small_password_list.txt" "small_password_list.txt" "medium_password_list.txt" "large_password_list.txt" "very_large_password_list.txt")
@@ -30,8 +30,9 @@ fi
 
 # Extract rockyou.txt from its archive
 cd "$DIRECTORY_SEARCH"/Leaked-Databases
-gzip -d --keep rockyou.txt.tar.gz && tar xvf rockyou.txt.tar
+gzip -d -f --keep rockyou.txt.tar.gz && tar xvf rockyou.txt.tar
 cd -
+
 # Create an output directory
 mkdir -p "$DIRECTORY_NAME"
 

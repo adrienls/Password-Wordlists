@@ -1,8 +1,8 @@
 # Password-Wordlists
-[wordlists.sh](wordlists.sh) is a small bash script to generate password wordlists.
+[passwd.sh](passwd.sh) is a small bash script to generate password wordlists.
 
 ## Instructions
-[wordlists.sh](wordlists.sh) works in three phases:
+[passwd.sh](passwd.sh) works in three phases:
 
 1. [SecLists](https://github.com/danielmiessler/SecLists) is cloned in the current working directory.
 [SecLists](https://github.com/danielmiessler/SecLists) is a collection of multiple types of lists used during security assessments, collected in one place.
@@ -29,13 +29,13 @@ Small and medium wordlists are especially useful for online attacks, and large w
 
 ## Install
 ```sh
-curl -O https://raw.githubusercontent.com/adrienls/Password-Wordlists/main/wordlists.sh
+curl -O https://raw.githubusercontent.com/adrienls/Password-Wordlists/main/passwd.sh
 ```
 
 ## Usage
 ```bash
 # Download SecLists and generate wordlists in the current directory
-bash wordlist.sh
+bash passwd.sh
 ```
 
 ## Contributing
